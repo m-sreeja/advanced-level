@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="2P.css">
+</head>
+<body>
+	<header id="mainheader">
+		<h1>Survey Form</h1>
+	</header>
+	<section  id="showcase">
+		<h2>Submit Your Survey Today!</h2>
+		<form action="response.html" method="GET">
+			<label for="name">FirstName:</label>
+			<input type="text" name="firstname" id="name">
+			<br>
+			<br>
+			<label for="name">LastName:</label>
+		    <input type="text" name="lastname" id="name">
+		    <br>
+		    <br>
+		    <label for="email">Email:</label>
+		    <input type="email" name="email" id="email">
+		    <br>
+		    <br>
+		    <label for="gender">Gender:</label>
+            <select id="gender">
+            	<optgroup label="option">
+            		<option>Male</option>
+            		<option>Female</option>
+            		<option>Other</option>
+            	</optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="name">Qualification:</label>
+            <select id="qualification">
+            	<optgroup label="option">
+            		<option>X</option>
+                    <option>Intermediate</option>
+                    <option>Under Graduate</option>
+                    <option>Post Graduate</option>
+            	</optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="Country">Country:</label>
+            India<input type="radio" name="Country">
+            USA<input type="radio" name="Country">
+            China<input type="radio" name="Country">
+            Other<input type="radio" name="Country">
+            <br>
+            <br>
+            <label for="checkbox">T&C:</label>
+        	<input type="checkbox" name="checkbox" id="checkbox">
+        	<br>
+        	<br>
+        	<textarea id="subject" name="subject" placeholder="Write something.." style="height:300px,width:300px"></textarea>
+            <br>
+            <br>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" name="reset" value="reset">
+ 		</form>
+	</section>
+    <footer id="mainfooter">
+    	<p>Copyright &copy; <a href="1P.html" target="_blank">My Site!</a></p>
+    </footer>
+</body>
+</html>

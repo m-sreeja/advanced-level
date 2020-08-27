@@ -1,0 +1,42 @@
+#mainheader{
+  font-family:Strange Shadow Regular;
+    color:#0429FA;
+    background-color:hsl(177, 94%, 49%);
+    border: 1.5px solid black;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#MyIntrests{
+  margin: auto;
+    width: 1000px;
+    margin-top: 20px;
+
+}
+ article {
+  width: 303px;
+  display: inline-block !important;
+  border: 2px solid aquamarine;
+  padding: 10px;
+  margin-top: 0px;
+  color: white;
+  font: 24;
+
+}
+article img{
+  width: 50px;
+  height: 50px;
+}
+.article-img{
+  height: 200px;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+  border-top-left-radius: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px; 
+} 
+.container{
+  height: 650px;
+}

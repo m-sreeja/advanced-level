@@ -1,0 +1,37 @@
+#mainheader{
+	font-family: CabbagetownStd Regular;
+    color:#900C3F ;
+    background-color:#DAF7A6 ;
+    border: 1.5px solid black;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#showcase{
+	padding: 10px;
+}
+section p{
+	max-width: 700px;
+	margin: 2em auto;
+	line-height: 1.5em;
+}
+section h2{
+	text-align: center;
+}
+form {
+	margin: auto;
+	padding: auto;
+	align-content: center;
+	max-width: 500px;
+	}
+#mainfooter{
+ 	background-color: #333;
+ 	color: #fff;
+ 	padding: 10px;
+ 	margin: auto;
+ 	text-align: center;
+ }
+ a{
+ 	text-decoration: none;
+ 	color:  #052BFC;
+ }

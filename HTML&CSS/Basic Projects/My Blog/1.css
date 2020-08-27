@@ -1,0 +1,55 @@
+#header{
+	color:#2ecc72;
+	font-family: Cabbagetown Regular;
+	font-size: 10px;
+	text-align: center;
+}
+h2{
+	font-family: Stencil Regular;
+	font-size: 30px;
+	color:#FFC300 ;
+    float: left;
+    border: 1px solid #417a7a;
+    padding-top: 22px;
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 40px;
+    background-image: url(abstract.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ h2 img{
+    border-radius: 100px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+body{
+		background-color:#DAF7A6 ;
+}
+.container{
+	border: 1px solid #417a7a;
+	width: 500px;
+	height: 490px;
+	margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+	
+}
+.head{
+	text-align: center;
+	font-family: Stencil Regular;
+	font-size: 30px;
+	color:#052BFC  ;
+}
+.container img{
+	display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    border-radius: 50px;
+}
